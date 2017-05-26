@@ -1,6 +1,6 @@
 $main-color: #455A64;
 $text-color: #f1f1f1;
-$font-size: 3em;
+$font-size: 2em;
 
 
 body {
@@ -9,4 +9,10 @@ body {
   color: $text-color;
   font-size: $font-size;
   font-weight: bold;
+}
+.header {
+  background: url("../img/Tango_Mars.svg.png") left center no-repeat;
+  background-size: contain;
+  padding-left: 100px;
+  font-size: 100px;
 }
