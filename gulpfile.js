@@ -39,8 +39,8 @@ gulp.task('styles', function(){
     return gulp.src(path.src.style)
         .pipe(gulpIf(isDevelopment, sourcemaps.init()))
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulpIf(isDevelopment, sourcemaps.write()))
         // .pipe(autoprefixer(['last 3 versions', '> 5%'], { cascade: true }))
+        .pipe(gulpIf(isDevelopment, sourcemaps.write()))
         .pipe(gulp.dest(path.dist.css))
 });
 
