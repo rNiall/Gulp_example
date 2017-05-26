@@ -1,0 +1,12 @@
+$main-color: #455A64;
+$text-color: #f1f1f1;
+$font-size: 3em;
+
+
+body {
+  height: 100vh;
+  background: $main-color;
+  color: $text-color;
+  font-size: $font-size;
+  font-weight: bold;
+}
